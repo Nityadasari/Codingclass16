@@ -1,0 +1,19 @@
+import java.util.*;
+class Coding1
+{
+    public static void main(String args[])
+    {
+        ArrayList<String> a=new ArrayList<String>();
+        ArrayList<String> a1=new ArrayList<String>();
+        ArrayList<String> a2=new ArrayList<String>();
+        a1.add("aditya");
+        a1.add("womens");
+        a2.add("degree");
+        a2.add("college");
+        System.out.println("list a1 "+a1);
+        System.out.println("list a2 "+a2);
+        a.addAll(a1);
+        a.addAll(a2);
+        System.out.println("list a "+a);
+    }
+}
